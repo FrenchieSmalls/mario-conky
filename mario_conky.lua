@@ -121,7 +121,7 @@ function conky_main()
   local rows = 6
   local perc = 0.0
   local perc_incr = 100.0 / 24
-  local cx,cy = 70,292
+  local cx,cy = 72,292
   local grid_width = 76
 
   for i = 1,24 do
