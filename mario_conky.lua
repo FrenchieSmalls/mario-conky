@@ -67,7 +67,7 @@ function conky_main()
   -- Non-linear (sqrt instead) so graph area approximatly matches usage
   
   local cx,cy = 459,94
-  local height = 65
+  local height = 60
   local width = 30
   local gap = 161
 
@@ -206,7 +206,7 @@ end
 function draw_volume(name, used, cx)
   local cy = 700
   local width,height = 57,15
-  local volume_height = 65
+  local volume_height = 59
   local filled_height = volume_height * used / 100
   local line_width = 5
 
